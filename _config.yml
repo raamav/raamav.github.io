@@ -1,6 +1,6 @@
 title: Rama Vishwanathan
-logo: /assets/img/IMG_0014.jpg
-description: Minimal is a theme for GitHub Pages.
+#logo: /assets/img/IMG_0014.jpg
+description: My Research Projects
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
