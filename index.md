@@ -13,12 +13,12 @@ Worked on projects on Text Classification and Sentiment Analysis.
    * **Approach**: Used a neural net with Bi-Directional LSTMs to extract the sentiment
    * **Results**: The best performing model had an accuracy of 83% on the test set
 
-2. **Sentiment Analysis on Full-Length Movie Reviews (IMDB)** [[code](https://github.com/raamav/Sentiment-Analysis-UserReviews/blob/master/IMDB_Reviews_DeepLearning_(v2).ipynb)] : IMDB Reviews is one of the best known publically available datasets for sentiment analysis. The reviews in the dataset are selected across movies and genre.
+2. **Sentiment Analysis on Full-Length Movie Reviews (IMDB)** [[code](https://github.com/raamav/Sentiment-Analysis-UserReviews/blob/master/IMDB_Reviews_DeepLearning_(v2).ipynb)] : IMDB Reviews is one of the best known publically available datasets for sentiment analysis. The reviews in the dataset are selected across movies and genres.
    * **Data**: The dataset comprises 50,000 'full-length' reviews. Most of these reviews are several paragraphs long
    * **Approach**: 
-        * From an architectural standpoint, used a three layer Bidirectional LSTM network followed by a set of three Dense layers. Incorporated recurrent dropouts which greatly improved the validation accuracy
-        * Used Pre-Trained Word Embeddings to further improve the classification accuracy. Used the 100 dimensional GloVe embedding as an input to the deep network
-        * Emoployed some innovative approaches of text-preprocessing, like expanding out word contractions *(don't >> do not)* and possessives *(people's >> people s)* 
+        * From an architectural standpoint, I used a three-layer Bidirectional LSTM network followed by a set of three Dense layers. Incorporated `Recurrent Dropout` which greatly improved the validation accuracy
+        * Used Pre-Trained Word Embeddings to further improve the classification accuracy. Used the 100-dimensional `GloVe` embedding as an input to the deep network
+        * Employed innovative approaches of text-preprocessing, such as expanding out word contractions *(don't >> do not)* and possessives *(people's >> people s)* 
    * **Results**: The best performing model had an accuracy of 86% on the test set
 
 
@@ -28,17 +28,17 @@ Worked on projects on Text Classification and Sentiment Analysis.
 
 Worked on projects on Image Classification and Image Color Segmentation.
 
-1. **Image Color Segmentation** [[code](https://github.com/raamav/Image-Color-Segmentation)] : Segmenting images by their color and Detecting the Top 3 colors in a given image along with their relative densities (% area). 
+1. **Image Color Segmentation** [[code](https://github.com/raamav/Image-Color-Segmentation)]: Segmenting images by their color and Detecting the Top 3 colors in a given image along with their relative densities (% area). 
    * **Applications**: Potential applications in e-commerce *(automatically filling out the color information for a catalog)*. The algorithm can also be used in tandem with object detection algorithms to specify the color of the object detected *(e.g. a red car)*
    * **Approach**: 
-     * The applcation is based on the K-Means clustering algorithm. An improved version of the K-Means algorithm, K-Means++ is used. This algorithm features a better way of initializing the weights which results in a more optimal solution while taking less time to execute
+     * The application is based on the K-Means clustering algorithm. An improved version of the K-Means algorithm, K-Means++ is used. This algorithm features a better way of initializing the weights which results in a more optimal solution while taking less time to execute
      * The RGB values of the colors are used to generate the names of the colors (the webcolors library helps to do this)
    
-2. **Interpreting Hand Gestures** [[code](https://github.com/raamav/Image-Classification/blob/master/Interpreting_Hand_Gestures_(Signs).ipynb)] : This dataset comprises images of hand gestures which indicate numerals from *zero to five*. This analysis is a step towards helping computers interpret human-sign language.
-   * **Data**: The dataset comprises 1080 training images *(less than 200 imaages per class)* and there are 120 images in the test set. 
+2. **Interpreting Hand Gestures** [[code](https://github.com/raamav/Image-Classification/blob/master/Interpreting_Hand_Gestures_(Signs).ipynb)] : This dataset comprises images of hand gestures that indicate numerals from *zero to five*. This analysis is a step towards helping computers interpret human-sign language.
+   * **Data**: The dataset comprises 1080 training images *(less than 200 images per class)* and there are 120 images in the test set. 
    * **Approach**: 
         * Implemented architecture similar to `AlexNet` which resulted in a 94% accuracy in the test set 
-        * Created a `Resnet - 50` architecture from scratch, which unsuprisingly did not work well (The number of images is way too less) 
+        * Created a `Resnet - 50` architecture from scratch, which unsurprisingly did not work well (The number of images is way too less) 
         * Used Transfer Learning using (pre-trained) weights from the `DenseNet 121` model. Post an initial round of training (30 epochs), fine-tuned the model by unfreezing all the weights. The resulting model performed exceedingly well with 96% accuracy on the test set
    * **Results**: Got the best results from Transfer Learning. The best model had a 96% accuracy on the test set.
 
@@ -46,9 +46,9 @@ Worked on projects on Image Classification and Image Color Segmentation.
 
 ### Other Projects
 
-1. **Forecasting Atmosperic Co2** [[code](https://github.com/raamav/Time-Series-Analysis/blob/master/6.%20Forecasting_Atmospheric_CO2.ipynb)] : The Mauna Loa observatory in Hawaii, USA has been recording Co2 concentraions on a monthly basis from the late 1950's. The goal is to forecast the monthly average CO2 concentration for 2018 and 2019 given the data from 1958 to 2017
+1. **Forecasting Atmospheric Co2** [[code](https://github.com/raamav/Time-Series-Analysis/blob/master/6.%20Forecasting_Atmospheric_CO2.ipynb)]: The Mauna Loa observatory in Hawaii, USA has been recording Co2 concentrations on a monthly basis from the late 1950s. The goal is to forecast the monthly average CO2 concentration for 2018 and 2019 given the data from 1958 to 2017
    * **Approach**: Used Holt-Winter's method and Seasonal ARIMA based models both of which performed very well
-   * **Results**: Got near perfect results from the approaches mentioned. 
+   * **Results**: Got near-perfect results from the approaches mentioned. 
 
 <BR>
 
