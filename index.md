@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I am Rama, and I am a Data Scientist from Mumbai, India. I have created this page to list out some of the research projects which I have recently worked on. Most of these projects are in NLP and Computer Vision. 
+I am <Font color = Grey> **Rama** </Font>, and I am a Data Scientist from Mumbai, India. I have created this page to list out some of the research projects which I have recently worked on. Most of these projects are in NLP and Computer Vision. 
 
 ### Natural Language Processing
 
@@ -23,6 +23,7 @@ Worked on projects on Text Classification and Sentiment Analysis.
 
 
 <BR>
+  
 ### Computer Vision
 
 Worked on projects on Image Classification and Image Color Segmentation.
