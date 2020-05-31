@@ -33,7 +33,7 @@ Worked on projects on Image Classification and Image Color Segmentation.
      * The applcation is based on the K-Means clustering algorithm. An improved version of the K-Means algorithm, K-Means++ is used. This algorithm features a better way of initializing the weights which results in a more optimal solution while taking less time to execute
      * The RGB values of the colors are used to generate the names of the colors (the webcolors library helps to do this)
    
-2. **Interpreting Hand Gestures** [[code](https://github.com/raamav/Image-Classification/blob/master/Interpreting_Hand_Gestures_(Signs).ipynb)] : This dataset comprises images of hand gestures which indicate numerals from 0-5. This analysis is a step towards helping computers interpret human-sign language.
+2. **Interpreting Hand Gestures** [[code](https://github.com/raamav/Image-Classification/blob/master/Interpreting_Hand_Gestures_(Signs).ipynb)] : This dataset comprises images of hand gestures which indicate numerals from *zero to five*. This analysis is a step towards helping computers interpret human-sign language.
    * **Data**: The dataset comprises 1080 training images *(less than 200 imaages per class)* and there are 120 images in the test set. 
    * **Approach**: 
         * Implemented architecture similar to `AlexNet` which resulted in a 94% accuracy in the test set 
@@ -43,7 +43,9 @@ Worked on projects on Image Classification and Image Color Segmentation.
 
 ### Other Projects
 
-Worked on projects on Image Classification and Image Color Segmentation.
+1. **Forecasting Atmosperic Co2** [[code](https://github.com/raamav/Time-Series-Analysis/blob/master/6.%20Forecasting_Atmospheric_CO2.ipynb)] : The Mauna Loa observatory in Hawaii, USA has been recording Co2 concentraions on a monthly basis from the late 1950's. The goal is to forecast the monthly average CO2 concentration for 2018 and 2019 given the data from 1958 to 2017
+   * **Approach**: Used Holt-Winter's method and Seasonal ARIMA based models both of which performed very well
+   * **Results**: Got near perfect results from the approaches mentioned. 
 
 
 ### Degrees 
@@ -56,7 +58,7 @@ Worked on projects on Image Classification and Image Color Segmentation.
 
 ### Coursework
 
-All of these courses are of 12 - 16 weeks in duration. 
+All of these courses are of 12 - 16 weeks in duration and are adapted from the courses that are offered in the respective universities. 
 
 1. **Deep Learning Specialization**, offered by Deeplearning.ai (2020)
 2. **Machine Learning**, offered by Stanford Online vis Coursera.org (2019)
