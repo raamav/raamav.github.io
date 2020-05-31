@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I am **Rama**, a Data Scientist from Mumbai, India. I have created this page to list out some of the research projects.
+I am **Rama**, a Data Scientist from Mumbai, India. I have created this page to list out some of the research projects in Natural Language Processing and Computer Vision.
 
 ### Natural Language Processing
 
