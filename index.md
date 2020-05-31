@@ -27,6 +27,11 @@ Worked on projects on Text Classification and Sentiment Analysis.
 
 Worked on projects on Image Classification and Image Color Segmentation.
 
+1. **"Real or NOT" : NLP to Identify Public Emergency Related Tweets** [[code](https://github.com/raamav/Text-Classification/blob/master/README.md)] : Twitter has become an important communication channel in times of emergency. Its vital to be able to identify the Tweets that are about real Emergencies. However, it’s not always easy to do so.
+   * **Data**: The dataset comprises 7500+ tweets which cover a wide set of public emergencies like Natural Disasters
+   * **Approach**: Used a neural net with Bi-Directional LSTMs to extract the sentiment
+   * **Results**: The best performing model had an accuracy of 83% on the test set
+
 
 ### Other Projects
 
@@ -41,7 +46,7 @@ Worked on projects on Image Classification and Image Color Segmentation.
 | BE (Telecom.)| VTU, Belgaum      | 2005  |
 
 
-### Other Coursework
+### Coursework
 
 All of these courses are of 12 - 16 weeks in duration. 
 
