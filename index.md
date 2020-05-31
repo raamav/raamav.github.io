@@ -22,7 +22,7 @@ Worked on projects on Text Classification and Sentiment Analysis.
    * **Results**: The best performing model had an accuracy of 86% on the test set
 
 
-
+<BR>
 ### Computer Vision
 
 Worked on projects on Image Classification and Image Color Segmentation.
@@ -41,12 +41,15 @@ Worked on projects on Image Classification and Image Color Segmentation.
         * Used Transfer Learning using (pre-trained) weights from the `DenseNet 121` model. Post an initial round of training (30 epochs), fine-tuned the model by unfreezing all the weights. The resulting model performed exceedingly well with 96% accuracy on the test set
    * **Results**: Got the best results from Transfer Learning. The best model had a 96% accuracy on the test set.
 
+<BR>
+
 ### Other Projects
 
 1. **Forecasting Atmosperic Co2** [[code](https://github.com/raamav/Time-Series-Analysis/blob/master/6.%20Forecasting_Atmospheric_CO2.ipynb)] : The Mauna Loa observatory in Hawaii, USA has been recording Co2 concentraions on a monthly basis from the late 1950's. The goal is to forecast the monthly average CO2 concentration for 2018 and 2019 given the data from 1958 to 2017
    * **Approach**: Used Holt-Winter's method and Seasonal ARIMA based models both of which performed very well
    * **Results**: Got near perfect results from the approaches mentioned. 
 
+<BR>
 
 ### Degrees 
 
@@ -55,6 +58,8 @@ Worked on projects on Image Classification and Image Color Segmentation.
 | MBA          | NMIMS, Mumbai     | 2009  |
 | BE (Telecom.)| VTU, Belgaum      | 2005  |
 
+
+<BR>
 
 ### Coursework
 
