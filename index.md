@@ -27,13 +27,19 @@ Worked on projects on Text Classification and Sentiment Analysis.
 
 Worked on projects on Image Classification and Image Color Segmentation.
 
-1. **Iamge Color Segmentation** [[code](https://github.com/raamav/Image-Color-Segmentation)] : Segmenting images by their color and Detecting the Top 3 colors in a given image along with their relative densities (% area). 
+1. **Image Color Segmentation** [[code](https://github.com/raamav/Image-Color-Segmentation)] : Segmenting images by their color and Detecting the Top 3 colors in a given image along with their relative densities (% area). 
    * **Applications**: Potential applications in e-commerce *(automatically filling out the color information for a catalog)*. The algorithm can also be used in tandem with object detection algorithms to specify the color of the object detected *(e.g. a red car)*
    * **Approach**: 
-     * Based on K-means clustering algorithm. An improved version of the k-means algorithm, k-means++ is used. This algorithm features a better way of initializing the weights which results in a more optimal solution while taking less time to execute
+     * The applcation is based on the K-Means clustering algorithm. An improved version of the K-Means algorithm, K-Means++ is used. This algorithm features a better way of initializing the weights which results in a more optimal solution while taking less time to execute
      * The RGB values of the colors are used to generate the names of the colors (the webcolors library helps to do this)
    
-
+2. **Interpreting Hand Gestures** [[code](https://github.com/raamav/Image-Classification/blob/master/Interpreting_Hand_Gestures_(Signs).ipynb)] : This dataset comprises images of hand gestures which indicate numerals from 0-5. This analysis is a step towards helping computers interpret human-sign language.
+   * **Data**: The dataset comprises 1080 training images *(less than 200 imaages per class)* and there are 120 images in the test set. 
+   * **Approach**: 
+        * Implemented architecture similar to `AlexNet` which resulted in a 94% accuracy in the test set 
+        * Created a `Resnet - 50` architecture from scratch, which unsuprisingly did not work well (The number of images is way too less) 
+        * Used Transfer Learning using (pre-trained) weights from the `DenseNet 121` model. Post an initial round of training (30 epochs), fine-tuned the model by unfreezing all the weights. The resulting model performed exceedingly well with 96% accuracy on the test set
+   * **Results**: Got the best results from Transfer Learning. The best model had a 96% accuracy on the test set.
 
 ### Other Projects
 
