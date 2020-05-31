@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I am <Font color = Ash Gray> **Rama** </Font>, and I am a Data Scientist from Mumbai, India. I have created this page to list out some of the research projects which I have recently worked on. Most of these projects are in NLP and Computer Vision. 
+I am <Font color = Ash Gray> **Rama** </Font>, a Data Scientist from Mumbai, India. I have created this page to list out some of the research projects which I have recently worked on. Most of these projects are in NLP and Computer Vision. 
 
 ### Natural Language Processing
 
