@@ -18,7 +18,7 @@ Worked on projects on Text Classification and Sentiment Analysis.
    * **Approach**: 
         * From an architectural standpoint, used a three layer Bidirectional LSTM network followed by a set of three Dense layers. Incorporated recurrent dropouts which greatly improved the validation accuracy
         * Used Pre-Trained Word Embeddings to further improve the classification accuracy. Used the 100 dimensional GloVe embedding as an input to the deep network
-        * Emoployed some innoative approaches of text-preprocessing, expanding out word contractions *(don't -> do not)* and possessives *(people's -> people s)* which  
+        * Emoployed some innovative approaches of text-preprocessing, like expanding out word contractions *(don't -> do not)* and possessives *(people's -> people s)* which  
    * **Results**: The best performing model had an accuracy of 86% on the test set
 
 
