@@ -6,16 +6,14 @@ I am Rama, and I am a Data Scientist from Mumbai, India. I have created this pag
 
 ### Natural Language Processing
 
-**"Real or NOT" : NLP to Identify Public Emergency Related Tweets** [[code](https://github.com/raamav/Text-Classification/blob/master/README.md)]
-> Twitter has become an important communication channel in times of emergency. The ubiquitousness of smartphones enables people to announce an emergency they’re observing in real-time. Because of this, more agencies are interested in programatically monitoring Twitter (i.e. disaster relief organizations and news agencies)
+Worked on projects on Text Classification and Sentiment Analysis.
 
-Being able to predict which Tweets are about real Public Emergencies (*eg Earthquakes, Floods, Terrorist Events*) is therefore, of vital importance. Hopwever, it’s not always clear whether a person’s words are actually announcing a disaster.
+1. **"Real or NOT" : NLP to Identify Public Emergency Related Tweets** [[code](https://github.com/raamav/Text-Classification/blob/master/README.md)] : Twitter has become an important communication channel in times of emergency. Its vital to be able to identify the Tweets that are about real Emergencies. However, it’s not always easy to do so.
+- **Data**: The dataset comprises 7500+ tweets which cover a wide set of public emergencies like Natural Disasters
+- **Approach**: Used a neural net with Bi-directional LSTMs to extract the sentiment
+- **Results**: The best performing model had an accuracy of 83% on the test set
 
-In this project, I have tried out two variants of LSTM based approaches - one with pretrained embeddings and one without. The model which incorporate pre-trained embeddings from the Glove model had an accuracy of 83% on the test set.
 
-I have also created a set of helper functions for data preprocessing, vocabulary building and creating embedding matrix from pre-trained embeddings.
-
-The best performing model had an accuracy of 83% on the test data
 
 
 ### Computer Vision
