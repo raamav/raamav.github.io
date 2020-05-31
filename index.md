@@ -9,6 +9,7 @@ I am **Rama**, a Data Scientist from Mumbai, India. I have created this page to 
 Worked on projects on Text Classification and Sentiment Analysis.
 
 1. **"Real or NOT" : NLP to Identify Public Emergency Related Tweets** [[code](https://github.com/raamav/Text-Classification)] : Twitter has become an important communication channel in times of emergency. Its vital to be able to identify the Tweets that are about real Emergencies. However, it’s not always easy to do so.
+   * **Potential Applications** These algorithms can be used by Governments to better manage the responses to Public Emergencies
    * **Data**: The dataset comprises 7500+ tweets which cover a wide set of public emergencies like Natural Disasters
    * **Approach**: Used a neural net with Bi-Directional LSTMs to extract the sentiment
    * **Results**: The best performing model had an accuracy of 83% on the test set
@@ -34,7 +35,8 @@ Worked on projects on Image Classification and Image Color Segmentation.
      * The application is based on the K-Means clustering algorithm. An improved version of the K-Means algorithm, K-Means++ is used. This algorithm features a better way of initializing the weights which results in a more optimal solution while taking less time to execute
      * The RGB values of the colors are used to generate the names of the colors (the webcolors library helps to do this)
    
-2. **Interpreting Hand Gestures** [[code](https://github.com/raamav/Image-Classification/blob/master/Interpreting_Hand_Gestures_(Signs).ipynb)] : This dataset comprises images of hand gestures that indicate numerals from *zero to five*. This analysis is a step towards helping computers interpret human-sign language.
+2. **Interpreting Hand Gestures** [[code](https://github.com/raamav/Image-Classification/blob/master/Interpreting_Hand_Gestures_(Signs).ipynb)] : This dataset comprises images of hand gestures that indicate numerals from *zero to five*. 
+   * **Potential Applications**: This analysis is a step towards helping computers interpret human-sign language.
    * **Data**: The dataset comprises 1080 training images *(less than 200 images per class)* and there are 120 images in the test set. 
    * **Approach**: 
         * Implemented architecture similar to `AlexNet` which resulted in a 94% accuracy in the test set 
