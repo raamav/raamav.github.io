@@ -8,7 +8,7 @@ I am Rama, and I am a Data Scientist from Mumbai, India. I have created this pag
 
 Worked on projects on Text Classification and Sentiment Analysis.
 
-1. **"Real or NOT" : NLP to Identify Public Emergency Related Tweets** [[code](https://github.com/raamav/Text-Classification/blob/master/README.md)] : Twitter has become an important communication channel in times of emergency. Its vital to be able to identify the Tweets that are about real Emergencies. However, it’s not always easy to do so.
+1. **"Real or NOT" : NLP to Identify Public Emergency Related Tweets** [[code](https://github.com/raamav/Text-Classification)] : Twitter has become an important communication channel in times of emergency. Its vital to be able to identify the Tweets that are about real Emergencies. However, it’s not always easy to do so.
    * **Data**: The dataset comprises 7500+ tweets which cover a wide set of public emergencies like Natural Disasters
    * **Approach**: Used a neural net with Bi-Directional LSTMs to extract the sentiment
    * **Results**: The best performing model had an accuracy of 83% on the test set
@@ -18,7 +18,7 @@ Worked on projects on Text Classification and Sentiment Analysis.
    * **Approach**: 
         * From an architectural standpoint, used a three layer Bidirectional LSTM network followed by a set of three Dense layers. Incorporated recurrent dropouts which greatly improved the validation accuracy
         * Used Pre-Trained Word Embeddings to further improve the classification accuracy. Used the 100 dimensional GloVe embedding as an input to the deep network
-        * Emoployed some innovative approaches of text-preprocessing, like expanding out word contractions *(don't -> do not)* and possessives *(people's -> people s)* which  
+        * Emoployed some innovative approaches of text-preprocessing, like expanding out word contractions *(don't >> do not)* and possessives *(people's >> people s)* 
    * **Results**: The best performing model had an accuracy of 86% on the test set
 
 
@@ -27,10 +27,12 @@ Worked on projects on Text Classification and Sentiment Analysis.
 
 Worked on projects on Image Classification and Image Color Segmentation.
 
-1. **"Real or NOT" : NLP to Identify Public Emergency Related Tweets** [[code](https://github.com/raamav/Text-Classification/blob/master/README.md)] : Twitter has become an important communication channel in times of emergency. Its vital to be able to identify the Tweets that are about real Emergencies. However, it’s not always easy to do so.
-   * **Data**: The dataset comprises 7500+ tweets which cover a wide set of public emergencies like Natural Disasters
-   * **Approach**: Used a neural net with Bi-Directional LSTMs to extract the sentiment
-   * **Results**: The best performing model had an accuracy of 83% on the test set
+1. **Iamge Color Segmentation** [[code](https://github.com/raamav/Image-Color-Segmentation)] : Segmenting images by their color and Detecting the Top 3 colors in a given image along with their relative densities (% area). 
+   * **Applications**: Potential applications in e-commerce *(automatically filling out the color information for a catalog)*. The algorithm can also be used in tandem with object detection algorithms to specify the color of the object detected *(e.g. a red car)*
+   * **Approach**: 
+     * Based on K-means clustering algorithm. An improved version of the k-means algorithm, k-means++ is used. This algorithm features a better way of initializing the weights which results in a more optimal solution while taking less time to execute
+     * The RGB values of the colors are used to generate the names of the colors (the webcolors library helps to do this)
+   
 
 
 ### Other Projects
