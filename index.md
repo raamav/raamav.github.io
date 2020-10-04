@@ -69,10 +69,12 @@ Worked on projects on Image Classification and Image Color Segmentation.
 All of these courses are of 12 - 16 weeks in duration and are adapted from the courses that are offered in the respective universities. 
 
 1. **Deep Learning Specialization**, offered by Deeplearning.ai (2020)
-2. **Machine Learning**, offered by Stanford Online vis Coursera.org (2019)
-3. **Introduction to Computer Science and Programming using Python**, offered by MIT Online via edX.org (2019)
-4. **The Analytics Edge**, offered by MIT Online via edX.org (2015)
-5. **Data Analysis and Statistical Inference**, offered by Duke University Online via courera.org (2014)
+2. **Data Structures and Algorithms Specialization**, offered by University of California San Diego via Coursera.org (2020)
+3. **Machine Learning**, offered by Stanford Online via Coursera.org (2019)
+4. **Discrete Math Specialization**, University of California San Diego via Coursera.org (2020)
+5. **Introduction to Computer Science and Programming using Python**, offered by MIT Online via edX.org (2019)
+6. **The Analytics Edge**, offered by MIT Online via edX.org (2015)
+7. **Data Analysis and Statistical Inference**, offered by Duke University Online via coursera.org (2014)
 
 
 * * *
