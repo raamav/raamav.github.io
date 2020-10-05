@@ -73,8 +73,9 @@ All of these courses are of 12 - 16 weeks in duration and are adapted from the c
 3. **Machine Learning**, offered by Stanford Online via Coursera.org (2019)
 4. **Discrete Math Specialization**, University of California San Diego via Coursera.org (2020)
 5. **Introduction to Computer Science and Programming using Python**, offered by MIT Online via edX.org (2019)
-6. **The Analytics Edge**, offered by MIT Online via edX.org (2015)
-7. **Data Analysis and Statistical Inference**, offered by Duke University Online via coursera.org (2014)
+6. **Computer Architecture**, offered by Princeton University via Coursera.org (2019)
+7. **The Analytics Edge**, offered by MIT Online via edX.org (2015)
+8. **Data Analysis and Statistical Inference**, offered by Duke University Online via coursera.org (2014)
 
 
 * * *
