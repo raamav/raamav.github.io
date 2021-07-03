@@ -6,7 +6,7 @@ I am **Rama**, a Data Scientist from Mumbai, India. I have created this page to 
 
 <BR>
 
-### Degrees 
+### Academic Background
 
 | Degree                      | University                        | Year.       |
 |:----------------------------|:----------------------------------|:------------|
