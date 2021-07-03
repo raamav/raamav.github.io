@@ -4,6 +4,18 @@ layout: default
 
 I am **Rama**, a Data Scientist from Mumbai, India. I have created this page to list out some of my experiments in Natural Language Processing and Computer Vision.
 
+<BR>
+
+### Degrees 
+
+| Degree                      | University                        | Year.       |
+|:----------------------------|:----------------------------------|:------------|
+| MS (Data Science)           | University of Texas, Austin, USA  | 2021-23(e)  |
+| MBA (Marketing & Strategy)  | NMIMS, Mumbai, India              | 2007-09     |
+| BE (Telecommunication Engg.)| VTU, Belgaum, India               | 2001-05     |
+
+<BR>
+
 ### Natural Language Processing
 
 Worked on projects on Text Classification and Sentiment Analysis.
@@ -51,15 +63,6 @@ Worked on projects on Image Classification and Image Color Segmentation.
 1. **Forecasting Atmospheric Co2** [[code](https://github.com/raamav/Time-Series-Analysis/blob/master/6.%20Forecasting_Atmospheric_CO2.ipynb)]: The Mauna Loa observatory in Hawaii, USA has been recording Co2 concentrations on a monthly basis from the late 1950s. The goal is to forecast the monthly average CO2 concentration for 2018 and 2019 given the data from 1958 to 2017
    * **Approach**: Used Holt-Winter's method and Seasonal ARIMA based models both of which performed very well
    * **Results**: Got near-perfect results from the approaches mentioned. 
-
-<BR>
-
-### Degrees 
-
-| Degree       | University        | Year |
-|:-------------|:------------------|:------|
-| MBA          | NMIMS, Mumbai     | 2009  |
-| BE (Telecom.)| VTU, Belgaum      | 2005  |
 
 
 <BR>
